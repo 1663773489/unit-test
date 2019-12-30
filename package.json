@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/1663773489/unit-test/issues"
   },
-  "homepage": "https://github.com/1663773489/unit-test#readme"
+  "homepage": "https://github.com/1663773489/unit-test#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
