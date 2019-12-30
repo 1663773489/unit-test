@@ -1,0 +1,1 @@
+{"version":3,"sources":["button.js"],"names":["Vue","component","template"],"mappings":"AAAA;AACAA,GAAG,CAACC,SAAJ,CAAc,UAAd,EAA0B;AACtBC,EAAAA,QAAQ;AADc,CAA1B","file":"button.3240c433.js","sourceRoot":"..","sourcesContent":["//创建组件\r\nVue.component(\"g-button\", {\r\n    template: `\r\n    <button class=\"g-button\"></button>\r\n    `\r\n})"]}

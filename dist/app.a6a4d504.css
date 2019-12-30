@@ -1,0 +1,8 @@
+.g-button[data-v-308cef] {
+  font-size: var(--font-size);
+  height: var(--font-height);
+  padding: 0 1em;
+  border-radius: var(--boder-radius);
+  border: 1px solid var(--boder-color);
+  background: var(--button-bg);
+}
