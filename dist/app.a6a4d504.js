@@ -12437,6 +12437,8 @@ exports.default = void 0;
 //
 //
 //
+//
+//
 var _default = {};
 exports.default = _default;
         var $308cef = exports.default || module.exports;
@@ -12451,7 +12453,7 @@ exports.default = _default;
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("button", { staticClass: "g-button" }, [_vm._v("按钮")])
+  return _c("button", { staticClass: "g-button" }, [_vm._t("default")], 2)
 }
 var staticRenderFns = []
 render._withStripped = true
