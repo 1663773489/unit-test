@@ -1,10 +1,23 @@
 <template>
-  <button class="g-button">
+  <button class="g-button" :calss="{[`icon-${iconPosition}`]:true}">
+    <svg v-if="icon" class="icon">
+      <use :xlink:href="`#i-${icon}`" />
+    </svg>
     <slot></slot>
   </button>
 </template>
 <script>
-export default {};
+export default {
+  // props: ["icon", "iconPosition"]
+  //给默认值一个属性
+  props: {
+    icon: {},
+    iconPosition: {
+      type: String,
+      default: "left"
+    }
+  }
+};
 </script>
 <style  scoped>
 .g-button {
