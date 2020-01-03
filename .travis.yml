@@ -1,5 +1,5 @@
 language: node_js
-# node.js版本
+# node.js
 node_js:
   - "8"
   - "9"
