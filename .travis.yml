@@ -2,6 +2,7 @@ language: node_js
 # node.js版本
 node_js:
   - "8"
+  - "9"
 addons:
   chrome: stable
 sudo: required
